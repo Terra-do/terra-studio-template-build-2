@@ -1,0 +1,52 @@
+[
+  {
+    "id": "toronto-solar-01",
+    "city": "Toronto",
+    "category": "Energy at home",
+    "title": "Canada Greener Homes Grant for solar panels",
+    "summary": "A federal grant that helped homeowners pay for retrofits, including solar panels.",
+    "details": [
+      "Required a pre-retrofit EnerGuide evaluation"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Natural Resources Canada: Closed: Canada Greener Homes Grant",
+        "url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/closed-canada-greener-homes-grant-0"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness: the program page is marked closed. It still shows up in older articles, which is how it got into the research."
+    }
+  },
+  {
+    "id": "toronto-solar-02",
+    "city": "Toronto",
+    "category": "Energy at home",
+    "title": "GreenON solar rebate",
+    "summary": "An Ontario rebate for residential solar installations.",
+    "details": [
+      "Covered part of the cost of grid-connected systems"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Ontario GreenON rebates",
+        "url": "https://www.ontario.ca/page/greenon-rebates"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness: cancelled in 2018, and the source URL now returns a 404."
+    }
+  }
+]

@@ -1,0 +1,515 @@
+[
+  {
+    "id": "toronto-heat-01",
+    "city": "Toronto",
+    "category": "Heat",
+    "title": "Find a cool space near you",
+    "summary": "During heat warnings, the city lists air-conditioned public places you can go, including libraries, community centres and some civic buildings.",
+    "details": [
+      "Use the city's Cool Spaces map to find the nearest one",
+      "Check hours before you go, since not all spaces are open evenings or weekends",
+      "If you need to check on someone, call 311 for the Heat Relief Network"
+    ],
+    "when": [
+      "heat-high",
+      "heat-extreme"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Cool Spaces Near You",
+        "url": "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/hot-weather/cool-spaces-near-you/"
+      },
+      {
+        "title": "City of Toronto: Heat Relief",
+        "url": "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/hot-weather/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-air-01",
+    "city": "Toronto",
+    "category": "Air quality",
+    "title": "Check the AQHI before outdoor exercise",
+    "summary": "Ontario publishes an hourly Air Quality Health Index for Toronto with advice for at-risk groups and for everyone else.",
+    "details": [
+      "Look up the current AQHI for Toronto stations",
+      "At 7 or above, reduce or reschedule strenuous outdoor activity",
+      "People with heart or lung conditions should follow the at-risk advice at lower values"
+    ],
+    "when": [
+      "air-moderate",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "Air Quality Ontario: AQHI",
+        "url": "https://www.airqualityontario.com/aqhi/"
+      },
+      {
+        "title": "City of Toronto: Air Quality",
+        "url": "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/air-quality/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-energy-01",
+    "city": "Toronto",
+    "category": "Energy at home",
+    "title": "Shift heavy electricity use to off-peak hours",
+    "summary": "Ontario's time-of-use and ultra-low overnight rates charge less at night and on weekends. Running laundry, dishwashers and EV charging then costs less, and overnight demand is met with less gas generation.",
+    "details": [
+      "Check which rate plan your bill uses: time-of-use, tiered, or ultra-low overnight",
+      "Ultra-low overnight is designed for EV owners and anyone who can run appliances after 11 p.m.",
+      "Set delay timers on the dishwasher and washer so the shift happens on its own"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Ontario Energy Board: Electricity rates",
+        "url": "https://www.oeb.ca/consumer-information-and-protection/electricity-rates"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-energy-02",
+    "city": "Toronto",
+    "category": "Energy at home",
+    "title": "Free energy-saving upgrades for income-qualified households",
+    "summary": "Save on Energy's Energy Affordability Program installs free upgrades, from LED bulbs to insulation and in some cases a heat pump, for households under the income limits. Renters qualify if the utility account is in their name.",
+    "details": [
+      "Check the income limits on the program page (they scale by household size)",
+      "Anyone on Ontario Works, ODSP, OESP or LEAP in the past 12 months qualifies automatically",
+      "Apply online or call 1-844-770-3148"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Save on Energy: Energy Affordability Program",
+        "url": "https://saveonenergy.ca/en/For-Your-Home/Energy-Affordability-Program"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-energy-03",
+    "city": "Toronto",
+    "category": "Energy at home",
+    "title": "Home Renovation Savings rebates",
+    "summary": "Ontario's Home Renovation Savings Program pays rebates on insulation, heat pumps, windows, smart thermostats and rooftop solar, whichever fuel heats your home.",
+    "details": [
+      "Smart thermostat rebate is $100 with no assessment needed",
+      "Bigger upgrades like a cold-climate heat pump (up to $7,500) or insulation (up to $7,700) can go through a home energy assessment first",
+      "Apply on the Home Renovation Savings website"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Save on Energy: Home Renovation Savings Program",
+        "url": "https://www.saveonenergy.ca/homerenovationsavings"
+      },
+      {
+        "title": "Home Renovation Savings",
+        "url": "https://www.homerenovationsavings.ca/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-energy-04",
+    "city": "Toronto",
+    "category": "Energy at home",
+    "title": "Home Energy Loan Program (HELP)",
+    "summary": "The City of Toronto lends homeowners up to $125,000 for energy retrofits like heat pumps, solar and windows, repaid through the property tax bill at a fixed rate.",
+    "details": [
+      "For owners of low-rise homes up to three storeys and six units",
+      "Fixed rates from 3.34% (5 years) to 4.75% (20 years), valid until September 30, 2026, plus a 2% admin charge",
+      "Apply online, then complete a home energy assessment before funding"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Home Energy Loan Program",
+        "url": "https://www.toronto.ca/services-payments/water-environment/environmental-grants-incentives/home-energy-loan-program-help/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-water-01",
+    "city": "Toronto",
+    "category": "Water and flooding",
+    "title": "Basement flooding protection subsidy",
+    "summary": "Toronto pays 80% of the cost of backwater valves, sump pumps and related work, up to $6,650 per property, for owners of houses up to fourplexes.",
+    "details": [
+      "Backwater valve up to $1,600 each (two allowed), sump pump up to $2,250, plumbing assessment up to $500",
+      "Work must be done by a contractor with a valid Toronto business licence",
+      "Apply online within two years of the work; payment can take up to 10 weeks"
+    ],
+    "when": [
+      "flood-risk",
+      "rain-heavy",
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Basement Flooding Protection Subsidy Program",
+        "url": "https://www.toronto.ca/services-payments/water-environment/managing-rain-melted-snow/basement-flooding/basement-flooding-protection-subsidy-program/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-water-02",
+    "city": "Toronto",
+    "category": "Water and flooding",
+    "title": "Track your water use with MyWaterToronto",
+    "summary": "A free city tool that shows your daily, weekly and monthly water use from your meter, which is the quickest way to spot a leak.",
+    "details": [
+      "Sign up with the account and client number from your utility bill",
+      "Look for use that never drops to zero overnight; that usually means a leak",
+      "Works for houses and businesses with a City of Toronto utility account"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: MyWaterToronto",
+        "url": "https://www.toronto.ca/services-payments/water-environment/how-to-use-less-water/mywatertoronto/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-water-03",
+    "city": "Toronto",
+    "category": "Water and flooding",
+    "title": "Prepare for a heavy-rain day",
+    "summary": "Toronto's basement flooding page covers what to do before and during heavy rain: clear drains, move valuables up, and report flooding to 311.",
+    "details": [
+      "Keep eavestroughs, downspouts and the storm drain by your curb clear of leaves",
+      "Disconnect downspouts from the sewer so roof water goes to the lawn",
+      "Report basement flooding or a surcharging sewer to 311"
+    ],
+    "when": [
+      "rain-heavy",
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Basement Flooding",
+        "url": "https://www.toronto.ca/services-payments/water-environment/managing-rain-melted-snow/basement-flooding/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-move-01",
+    "city": "Toronto",
+    "category": "Getting around",
+    "title": "Bike Share Toronto",
+    "summary": "City-owned bike share with regular bikes and e-bikes at stations across Toronto. Pay per ride, per day, or by the year.",
+    "details": [
+      "Pay-as-you-go: $1 to unlock plus $0.12 a minute on a classic bike ($0.20 on an e-bike)",
+      "Day pass: $15 for unlimited 90-minute classic rides",
+      "Annual: $105 (30-minute rides) or $120 (45-minute rides), e-bikes half price per minute"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Bike Share Toronto: Pricing",
+        "url": "https://bikesharetoronto.com/pricing/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-move-02",
+    "city": "Toronto",
+    "category": "Getting around",
+    "title": "Fair Pass transit discount",
+    "summary": "Toronto residents aged 20 to 64 with low income get 36% off TTC fares: $2.10 a ride instead of $3.30, and no more than $98.70 a month.",
+    "details": [
+      "Income must be below 75% of the Low-Income Measure; Ontario Works, ODSP and child care subsidy recipients qualify automatically",
+      "You need a PRESTO card number to apply",
+      "Apply online, by phone at 416-338-8888, or in person"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Fair Pass Transit Discount Program",
+        "url": "https://www.toronto.ca/community-people/employment-social-support/support-for-people-in-financial-need/assistance-through-ontario-works/transit-discount/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-move-03",
+    "city": "Toronto",
+    "category": "Getting around",
+    "title": "Plan a route on the cycling network map",
+    "summary": "The city's interactive map shows every bike lane, trail and Bike Share station, with a route planner. A printed 2026 map is free at libraries and bike shops.",
+    "details": [
+      "Enter your start address to plan a route on protected lanes where possible",
+      "Filter by bikeway type to avoid painted-lane-only streets",
+      "Pick up the paper map at any Toronto Public Library branch"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Cycling Network Map",
+        "url": "https://www.toronto.ca/services-payments/streets-parking-transportation/cycling-in-toronto/cycling-network-map/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-move-04",
+    "city": "Toronto",
+    "category": "Getting around",
+    "title": "Charge an EV at a Green P lot",
+    "summary": "Toronto's parking authority runs about 400 public chargers at Green P lots and on-street. Charging is billed separately from parking.",
+    "details": [
+      "Level 2 off-street: $2 an hour, $6 overnight maximum",
+      "DC fast: $15 an hour (50 kW) or $20 an hour (100 kW)",
+      "Pay through the ChargePoint or Flo app; parking is paid separately in the Green P app"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Green P Parking: EV Charging",
+        "url": "https://parking.greenp.com/ev-charging/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-waste-01",
+    "city": "Toronto",
+    "category": "Waste and reuse",
+    "title": "Curbside Green Bin pickup",
+    "summary": "Toronto collects food scraps and other organics at the curb through the Green Bin program, on your regular garbage day.",
+    "details": [
+      "Food scraps, coffee grounds, soiled paper and pet waste all go in",
+      "Not sure about an item? Search the city's Waste Wizard",
+      "Kitchen containers are $7 at Community Environment Days"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: What goes in my Green Bin",
+        "url": "https://www.toronto.ca/services-payments/recycling-organics-garbage/houses/what-goes-in-my-green-bin/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-waste-02",
+    "city": "Toronto",
+    "category": "Waste and reuse",
+    "title": "Community Environment Days",
+    "summary": "From April to September, the city runs drop-off days in every ward: free compost to take home, and electronics and household hazardous waste to drop off.",
+    "details": [
+      "Free bagged compost, two bags per household while supplies last",
+      "Drop off e-waste and up to 50 litres or 50 kg of household hazardous waste",
+      "Bring reusable clothing, books and sporting goods for donation"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Community Environment Days",
+        "url": "https://www.toronto.ca/services-payments/recycling-organics-garbage/community-environment-days/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-waste-03",
+    "city": "Toronto",
+    "category": "Waste and reuse",
+    "title": "Repair Café Toronto",
+    "summary": "A volunteer group that runs monthly events where fixers help you repair clothes, small appliances, bikes and electronics for free, instead of throwing them out.",
+    "details": [
+      "Events are free; bring the broken item and stay to learn the fix",
+      "Check the events page for the next date and location",
+      "They're always looking for volunteer fixers"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Repair Café Toronto",
+        "url": "https://repaircafetoronto.ca/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-green-01",
+    "city": "Toronto",
+    "category": "Trees and gardens",
+    "title": "Request a free street tree",
+    "summary": "The city plants trees on the road allowance in front of homes and businesses at no cost. Property owners can request one through 311.",
+    "details": [
+      "Submit a tree planting request online or by calling 311",
+      "The city picks a species suited to the site",
+      "Part of the plan to reach 40% canopy cover by 2050"
+    ],
+    "when": [
+      "heat-high",
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Tree Planting on City Property",
+        "url": "https://www.toronto.ca/services-payments/water-environment/trees/tree-planting/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-green-02",
+    "city": "Toronto",
+    "category": "Trees and gardens",
+    "title": "LEAF backyard tree planting",
+    "summary": "A local nonprofit plants subsidized native trees on private property: an arborist consultation, delivery, planting and mulch for $160 to $230 a tree.",
+    "details": [
+      "Native shrubs are $30 and cedars $50",
+      "Planting runs April to June and September to November",
+      "Apply online; earlier bookings get more species to choose from"
+    ],
+    "when": [
+      "heat-high",
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "LEAF: Full Service Backyard Tree Planting",
+        "url": "https://www.yourleaf.org/full-service-backyard-tree-planting"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "toronto-green-03",
+    "city": "Toronto",
+    "category": "Trees and gardens",
+    "title": "Join a community garden",
+    "summary": "Around 60 community gardens across Toronto grow food, flowers and native plants together. Some donate harvests to local food programs.",
+    "details": [
+      "Contact the Supervisor of Community Gardens Programs to join one near you",
+      "Some gardens have waiting lists",
+      "Want your own plot instead? See the city's allotment gardens"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "City of Toronto: Community Gardens",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/beaches-gardens-attractions/gardens-and-horticulture/community-gardens/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-09-16",
+      "method": "schema+spot+freshness"
+    }
+  }
+]
