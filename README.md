@@ -2,9 +2,9 @@
 
 What the heat, the air and the rain are doing in one city right now, and what you can do about it today. Live readings from public feeds, matched to a set of local actions that were checked before they went live.
 
-This is the starter for **Build 2** in Terra Studio, Week 7. It ships with Toronto so you can see it working. You'll swap in your own city and your own verified actions.
+This is Terra's reference for **Build 2** in Terra Studio, Week 7. Learners don't copy it. They build their own tracker from an empty folder in Claude Code, and Claude reads this repo to learn the data format, the feed pattern and the rules. It ships with Toronto so you can see a finished version working.
 
-**Start your own:** click **Use this template → Create a new repository** at the top of [this repo](https://github.com/Terra-do/terra-studio-template-build-2). That gives you your own copy on GitHub. Clone *your* repo, not this one, so your pushes go to your site.
+**Build your own:** follow Build 2 in the Terra Studio playground. Your first Claude Code prompt points to [START-HERE.md](START-HERE.md), which gives Claude the plan and the files to read.
 
 **Live example:** [terra-studio-template-build-2.vercel.app](https://terra-studio-template-build-2.vercel.app/), Terra's Toronto version.
 
@@ -40,12 +40,11 @@ npm run dev
 
 Open http://localhost:3000. All three panels work immediately; nothing to configure.
 
-## Make it your city
+## Build your own version
 
-1. Edit `data/city.json`: name, country, latitude, longitude and timezone.
-2. Run the City Climate Tracker research skill in Cowork for your city. It produces `verified.json` and `flagged.json` in the format this site expects, with each action tagged to the conditions it applies to.
-3. Replace the two files in `data/`.
-4. `npm run dev` and check the page.
+Start from an empty folder, not from this repo, and ask Claude Code to read [START-HERE.md](START-HERE.md). It works through seven steps with you: set up, live readings, research the actions in Cowork with the City Climate Tracker skill, show the actions, the "How it's checked" page, your own look, and shipping. Your code will be your own; this repo is here so the data format and the feeds stay consistent.
+
+To run this reference locally, see above. To point it at another city, edit `data/city.json` and replace the two files in `data/`.
 
 ## Deploy
 

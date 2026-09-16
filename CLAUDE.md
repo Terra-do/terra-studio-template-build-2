@@ -2,6 +2,8 @@
 
 A one-city site that shows what the heat, the air and the rain are doing right now, and matches verified local actions to those conditions.
 
+This repo is Terra Studio's reference for Build 2. If a learner has pointed you here from their own empty project, read START-HERE.md and the Learning mode section below, and write their code fresh rather than copying these files.
+
 ## Stack
 - Next.js (App Router) with TypeScript. Tailwind v4 via `@tailwindcss/postcss`. No UI library, no database.
 - Hosted on Vercel. Every push to `main` redeploys.
