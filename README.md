@@ -4,7 +4,7 @@ What the heat, the air and the rain are doing in one city right now, and what yo
 
 This is the starter for **Build 2** in Terra Studio, Week 7. It ships with Toronto so you can see it working. You'll swap in your own city and your own verified actions.
 
-**Start your own:** click **Use this template** at the top of [this repo](https://github.com/bodhicodes/terra-studio-template-build-2), or run `git clone https://github.com/bodhicodes/terra-studio-template-build-2.git`.
+**Start your own:** click **Use this template** at the top of [this repo](https://github.com/Terra-do/terra-studio-template-build-2), or run `git clone https://github.com/Terra-do/terra-studio-template-build-2.git`.
 
 **Live example:** _(Terra's Toronto version, link added when deployed)_
 
